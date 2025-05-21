@@ -21,6 +21,10 @@ section {
 }
 
 .grid-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
     display: grid;
     grid-template-columns: 1fr, 2fr;
     gap: 2rem;
@@ -34,4 +38,10 @@ section {
 
 .right-column {
     padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
