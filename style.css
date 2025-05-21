@@ -45,3 +45,16 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
+/* Dark mode styles */
+.dark-mode{
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.dark-mode header,
+.dark-mode .left-column,
+.dark-mode .right-column{
+    background-color: #1e1e1e;
+    border-color: #333;
+}
