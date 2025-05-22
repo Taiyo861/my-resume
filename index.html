@@ -21,13 +21,30 @@
     </header>
 
     <section>
-        <h2>Contact</h2>
-        <p>Email: TFyoshida@gmail.com</p>
-        <p>Phone number: 6988590982</p>
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label>
+                Name: 
+                <input type="text" id="name" />
+            </label><br /><br />
+
+            <label>
+                Email:
+                <input type="email" id="email"
+            </label><br /><br />
+
+            <label>
+                Message:
+                <textarea id="message" rows="4"></textarea>
+            </label><br /><br />
+
+            <button type="submit">Send Message</button>
+            <p id="formFeedback" style="margin-top: 1rem;"></p>
+        </form>
     </section>
 
     <section>
-        <h2>Skills</h2>
+        <h2>Skills-list</h2>
         <ul>
             <li>
                 <button class="skill-btn">HTML</button>
